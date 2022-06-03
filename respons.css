@@ -1,0 +1,18 @@
+@media (max-width:424px) {
+    body{
+        flex-direction: column;
+    }
+    .btn-div{
+        position: fixed;
+        top: 5.5rem;
+    }
+    
+    
+    .opreration{
+        justify-content: flex-start;
+    
+    }
+
+  
+
+}

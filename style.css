@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-color: #f4f7f8;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    font-family: 'Ubuntu', sans-serif
+}
+
+
+.heading{
+    background-color: #f1c40f;
+    width: 100vw;
+    height: 5.1rem;
+    color: #282936;
+    box-shadow: 0 10px 16px rgb(248 247 247);
+    position: sticky;
+    top: 0;
+}
+
+.heading h1{
+    line-height: 5.8rem;
+    margin-left: 2rem;
+    font-weight: 400;
+}
+
+
+
+.btn-div{
+    position: absolute;
+    top: 6rem;
+    right: 10px;
+    margin: 15px 5px;
+    /* margin-left: auto; */
+}
+
+
+
+.add{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    background: #ffef00;
+    border: 0;
+    border-radius: 10px;
+    padding: 6px 10px;
+    box-shadow: 0px 0px 3px 1px grey;
+    transition: 0.5s;
+}
+
+
+.add:active{
+    transform-origin: left;
+    transform: rotateY(35deg);
+    box-shadow: 0px 1px 5px 1px grey;
+}
+.add:hover{
+    background-color: rgb(49, 49, 49);
+    color:#ffef00 ;
+}
+
+.note{
+    margin: 15px;
+    width: 241px;
+    padding: 10px;
+    /* border: 2px solid; */
+}
+
+.opreration{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.edit{
+    margin: 3px 6px;
+    padding: 7px;
+    background: #04cb04;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.edit:hover{
+    color: #04cb04;
+    background-color: white;
+}
+.edit:active{
+    transform-origin:top ;
+    transform: rotateY(30deg);
+    box-shadow: 0px 1px 5px 1px grey;
+}
+
+
+.delete{
+    margin: 3px 6px;
+    padding: 8px;
+    background: #f44336;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.delete:hover{
+    color: #f44336;
+    background-color: white;
+}
+
+.delete:active{
+    transform-origin:bottom ;
+    transform: rotateX(30deg);
+    box-shadow: 0px 1px 5px 1px grey;
+}
+
+
+.main{
+    background: white;
+    height: 150px;
+    /* width: 100%; */
+    /* border: 2px solid; */
+    overflow-y: scroll;
+    padding: 20px 15px;
+    font-weight: bold;
+}
+
+.textarea{
+    overflow-y: scroll;
+    height: 150px;
+    width: 210px;
+    resize: none;
+    border: none;
+    padding: 20px 15px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+
+.footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 1px;
+    background:rgb(3, 3, 233);
+    color: white;
+    margin-top: 3px;
+    font-family: 'Poppins';
+}
